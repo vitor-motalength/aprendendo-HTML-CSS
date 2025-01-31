@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root {
+
+    --cor-primaria: rgb(24, 24, 24);
+    --cor-secundaria: silver;
+    --cor-tercearia: royalblue;
+    --cor-ancora-primaria: white;
+    --cor-ancora-cabecalho: dodgerblue;
+    --cor-rodape: black;
+    --cor-hover: #272727;
+
+    --fonte-primaria: "PT Sans", serif;
+    --fonte-secundaria: "Montserrat", serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    box-sizing: border-box;
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+}
+
+.cabecalho {
+    padding: 2% 0% 0% 15%;
+}
+
+.cabecalho_menu {
+    display: flex;
+    gap: 80px;
+}
+
+.cabecalho_menu_link {
+    font-family: var(--fonte-secundaria);
+    font-style: italic;
+    font-size: 24px;
+    font-weight: 400;
+    color: var(--cor-ancora-cabecalho);
+    text-decoration: none;
+}
+
+
+.apresentacao {
+    margin: 5% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.apresetacao_conteudo {
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.apresetacao_conteudo_titulo {
+    font-family: var(--fonte-primaria);
+    font-size: 36px;
+
+}
+
+.titulo-destaque {
+    color: var(--cor-tercearia)
+}
+
+.apresetacao_conteudo_texto {
+
+    font-size: 24px;
+    font-family: var(--fonte-secundaria);
+    font-style: italic;
+}
+
+.apresentacao_link {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.apresentacao_link_subtitulo {
+    font-family:  var(--fonte-primaria);
+    font-weight: 600;
+    font-size: 24px;
+
+}
+
+.apresentacao_ancora {
+    display: flex;
+    justify-content: center;
+    border: 2px solid var(--cor-ancora-cabecalho);
+    gap: 16px;
+    color: var(--cor-ancora-primaria);
+    width: 378px;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 24px;
+    padding: 21px 0px;
+    text-decoration: none;
+    font-family: var(--fonte-secundaria);
+    font-style: italic;
+    font-weight: 600;
+}
+
+.apresentacao_ancora:hover {
+    background-color: #272727;
+}
+
+
+.foto {
+    border-radius: 16px;
+}
+
+.rodape {
+    color: var(--cor-rodape);
+    background-color: var(--cor-ancora-cabecalho);
+    padding: 24px;
+    text-align: center;
+    font-family:var(--fonte-secundaria);
+    font-size: 24px;
+
+}
