@@ -8,3 +8,4 @@ Uma página criada com **HTML/CSS** que mostra uma foto e possui algumas tags â
 ## 🛠 Tecnologias usadas  
 - 🔵 **HTML**  
 - 🟣 **CSS**
+- 🟠 **Git**
