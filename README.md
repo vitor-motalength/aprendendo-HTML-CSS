@@ -1,9 +1,10 @@
 # Olá, eu sou Vitor Santos! 👋
 
 
-# Amigo secreto
+# Portifolio
 
-O código coleta os nomes que o usuário escreveu e os adiciona a uma lista ao clicar no botão **'Adicionar'**. Depois, ao clicar em **'Escolher amigo secreto'**, o sorteio é realizado, definindo aleatoriamente um dos nomes de amigos na lista.
+**'Descrição'**
+Uma página criada com **HTML/CSS** que mostra uma foto e possui algumas tags âncoras para levar ao GitHub e à outra página, que contém um breve resumo sobre mim.
 ## 🛠 Tecnologias usadas  
 - 🔵 **HTML**  
 - 🟣 **CSS**
